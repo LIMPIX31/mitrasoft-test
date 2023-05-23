@@ -1,0 +1,14 @@
+{
+  "name": "@app/root",
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@app/providers": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.6"
+  },
+  "peerDependencies": {
+    "react": "18",
+    "react-dom": "18"
+  }
+}

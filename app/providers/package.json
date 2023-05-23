@@ -1,0 +1,17 @@
+{
+  "name": "@app/providers",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@app/store": "workspace:*",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.11.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.6",
+    "@types/react-router-dom": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "18",
+    "react-dom": "18"
+  }
+}
